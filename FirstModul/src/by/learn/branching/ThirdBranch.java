@@ -18,9 +18,8 @@ public class ThirdBranch {
         int x3= in.nextInt();
         System.out.print("input y3: ");
         int y3= in.nextInt();
-        if (x1-x3)*(y2-y3)-(x2-x3)*(y1-y3){
-
-        }
-
+        if ((x3-x1)/(x2-x1)==(y3-y1)/(y2-y1)){
+            System.out.print("In the same straight line");
+        } else System.out.print("In another straight line");
     }
 }
