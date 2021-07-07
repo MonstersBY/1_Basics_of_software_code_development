@@ -9,14 +9,15 @@ public class EightCycle {
         System.out.print("first number: ");
         int a= in.nextInt();
         System.out.print(a+"- ");
-        for (int i=0; a>0;i++){
+        while (a>0){
             System.out.print(a%10+ " ");
             a/=10;
         }
         System.out.println();
         System.out.print("second number: ");
         int b= in.nextInt();
-        for (int i=0; b>0;i++){
+        System.out.print(b+"- ");
+        while (b>0){
             System.out.print(b%10+ " ");
             b/=10;
         }
